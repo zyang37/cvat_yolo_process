@@ -43,7 +43,7 @@ p = p[0]
 f = open("train.txt", "w")
 for i in range(len(jpg)):
     f.write('{}/train/{}\n'.format(p, jpg[i]))
-    f.write('{}/train/{}\n'.format(p, txt[i]))
+    #f.write('{}/train/{}\n'.format(p, txt[i]))
 f.close()
 
 print('set up train.data...')
